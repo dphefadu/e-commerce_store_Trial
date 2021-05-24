@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins: 200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+header .logo
+{
+    color: #fff;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+.banner
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/images/david-lezcano-NfZiOJzZgcg-unsplash.jpg);
+    background-size: cover;
+}
+.banner .content
+{
+    max-width: 900px;
+    text-align: center;
+}
+.banner .content h2
+{
+    font-size: 2em;
+    padding-bottom: 20px;
+    color: #fff;
+}
+.banner .content p
+{
+    font-size: 1em;
+    color: #fff;
+}
+.sticky .logo
+{
+    color: rgb(241, 85, 85);
+}
+header .logo span
+{
+    color: #fff;
+    font-family: 'Ballet',cursive;
+    font-size: 1.5em;
+}
+header .navigation
+{
+    position: relative;
+    display: flex;
+    
+}
+header .navigation li
+{
+    list-style: none;
+    margin-left: 30px;
+}
+header .navigation li a
+{
+   text-decoration: none; 
+   color: #050505;
+   font-weight: 700;
+
+}
+.sticky .navigation li a
+{
+    color: #fff;
+}
+header .navigation li a:hover
+{
+    color: #ff0157;
+}
+section
+{
+    padding: 100px;
+}
